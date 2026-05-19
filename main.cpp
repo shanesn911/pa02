@@ -135,6 +135,10 @@ per m prefixes = O(ml(logn + klogk))
 dominant term when k is small = O(ml * logn)
 
 runtime analysis:
+input_20_random.csv = 17ms
+input_100_random.csv = 16ms
+input_1000_random.csv = 17ms
+input_76920_random.csv = 132ms
 
 
 3b: Space Complexity

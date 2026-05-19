@@ -23,7 +23,7 @@ std::vector<Movie> MovieCollection::findByPrefix(const std::string& prefix) cons
         if (name.size() < prefix.size() || name.substr(0, prefix.size()) != prefix) {
             break;
         }
-        results.emplace_back(name, it->second);
+        results.push_back(Movie(name, it->second));
         ++it;
     }
 
